@@ -19,5 +19,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t <dockerhub_username>/fastapi-cicd-app .
-        docker push <dockerhub_username>/fastapi-cicd-app
+        docker build -t alansag2509/fastapi-cicd-app .
+        docker push alansag2509/fastapi-cicd-app
